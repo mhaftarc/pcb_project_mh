@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TEMT6000X01") (type "KiCad") (uri "${KIPRJMOD}/lib/TEMT6000.pretty") (options "") (descr ""))
+)
