@@ -28,7 +28,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1130300|2438400|ac9702b8-ac3f-478e-aef6-a1ac3e185b8c|c553f39b-5c08-407c-914e-3b2edefe91b8|/e3b07b8e-4397-429e-a3d4-470976969885|/e3b07b8e-4397-429e-a3d4-470976969885|/e3b07b8e-4397-429e-a3d4-470976969885",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -430,7 +435,7 @@
         "uuid": "e3b07b8e-4397-429e-a3d4-470976969885"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-57,C1-18,D1-6,F1,FB1,J1-3,Q1,R1-13,SW1-2,U1-4,Y1",
+    "used_designators": "#FLG1-4,#PWR1-65,C1-18,D1-6,F1,FB1,J1-5,Q1,R1-13,SW1-2,U1-4,Y1",
     "variants": []
   },
   "sheets": [
