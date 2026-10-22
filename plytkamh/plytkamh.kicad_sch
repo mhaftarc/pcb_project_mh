@@ -4992,6 +4992,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:USBLC6-2SC6"
 			(pin_names
 				(hide yes)
@@ -7083,7 +7182,7 @@
 		(uuid "62025bfb-f942-4e46-8f6b-4f331023811f")
 	)
 	(junction
-		(at 321.31 29.21)
+		(at 321.31 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65f9d774-5b38-4221-a0de-7a0115dd86cf")
@@ -8143,6 +8242,16 @@
 			(type default)
 		)
 		(uuid "ccbb5802-0424-4cdc-aceb-d2b0820f89c3")
+	)
+	(wire
+		(pts
+			(xy 321.31 21.59) (xy 321.31 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce16d352-9f95-4454-8105-1c834d94681b")
 	)
 	(wire
 		(pts
@@ -12012,6 +12121,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 321.31 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ab4198d-9b1a-4c80-a077-dc3f7ebdafcc")
+		(property "Reference" "R14"
+			(at 323.85 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 323.85 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 319.532 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 321.31 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8ecba52-624a-4641-b9aa-37d878039292")
+		)
+		(pin "2"
+			(uuid "c5b581c7-26bc-4c17-8b66-e321dc4ab217")
+		)
+		(instances
+			(project "plytkamh"
+				(path "/e3b07b8e-4397-429e-a3d4-470976969885"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 289.56 166.37 0)
 		(unit 1)
 		(body_style 1)
@@ -15294,6 +15485,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 60.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fb202d4-abe8-4080-b2b5-d5a4d02780bf")
+		(property "Reference" "H4"
+			(at 17.78 59.6899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.78 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 15.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "plytkamh"
+				(path "/e3b07b8e-4397-429e-a3d4-470976969885"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 363.22 26.67 0)
 		(unit 1)
@@ -16091,7 +16358,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 321.31 21.59 0)
+		(at 321.31 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16102,7 +16369,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e812592-d09b-4632-9f83-fb888cb88022")
 		(property "Reference" "#PWR03"
-			(at 321.31 25.4 0)
+			(at 321.31 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16113,7 +16380,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 321.31 16.51 0)
+			(at 321.31 13.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16123,7 +16390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 21.59 0)
+			(at 321.31 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16134,7 +16401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 21.59 0)
+			(at 321.31 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16145,7 +16412,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 321.31 21.59 0)
+			(at 321.31 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16241,6 +16508,82 @@
 			(project "plytkamh"
 				(path "/e3b07b8e-4397-429e-a3d4-470976969885"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92c62d19-d8ee-4280-994b-fd371a709d3d")
+		(property "Reference" "H3"
+			(at 17.78 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.78 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 15.24 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "plytkamh"
+				(path "/e3b07b8e-4397-429e-a3d4-470976969885"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -16565,7 +16908,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 321.31 25.4 90)
+		(at 321.31 33.02 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16576,7 +16919,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cd13919-0b50-4a86-a6c5-fba1bfded252")
 		(property "Reference" "D2"
-			(at 325.12 25.7174 90)
+			(at 325.12 33.3374 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16587,7 +16930,7 @@
 			)
 		)
 		(property "Value" "Green"
-			(at 325.12 28.2574 90)
+			(at 325.12 35.8774 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16598,7 +16941,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 321.31 25.4 0)
+			(at 321.31 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16609,7 +16952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 25.4 0)
+			(at 321.31 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16620,7 +16963,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 321.31 25.4 0)
+			(at 321.31 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16631,7 +16974,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 321.31 25.4 0)
+			(at 321.31 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17293,6 +17636,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac15ff00-9e73-46a8-8602-288043415e17")
+		(property "Reference" "H1"
+			(at 17.78 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.78 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 15.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "plytkamh"
+				(path "/e3b07b8e-4397-429e-a3d4-470976969885"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 370.84 22.86 0)
 		(unit 1)
@@ -17372,7 +17791,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 29.21 0)
+		(at 321.31 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17383,7 +17802,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6f0bc87-ed29-46fa-a1a7-a2eca75e72a8")
 		(property "Reference" "#PWR01"
-			(at 321.31 35.56 0)
+			(at 321.31 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17394,7 +17813,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.31 34.29 0)
+			(at 321.31 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17404,7 +17823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 29.21 0)
+			(at 321.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17415,7 +17834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 29.21 0)
+			(at 321.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17426,7 +17845,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 29.21 0)
+			(at 321.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18703,6 +19122,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 15.24 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbb0221c-1555-4069-9526-9512dc2137c2")
+		(property "Reference" "H2"
+			(at 17.78 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 17.78 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 15.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 15.24 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "plytkamh"
+				(path "/e3b07b8e-4397-429e-a3d4-470976969885"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 378.46 30.48 0)
 		(unit 1)
@@ -19497,7 +19992,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 321.31 29.21 90)
+		(at 321.31 36.83 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19508,7 +20003,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea2664ba-a6cb-41f8-a9c0-3e44031b46fe")
 		(property "Reference" "#FLG02"
-			(at 319.405 29.21 0)
+			(at 319.405 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19519,7 +20014,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 317.5 29.2099 90)
+			(at 317.5 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19530,7 +20025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 29.21 0)
+			(at 321.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19541,7 +20036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 29.21 0)
+			(at 321.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19552,7 +20047,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 321.31 29.21 0)
+			(at 321.31 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
