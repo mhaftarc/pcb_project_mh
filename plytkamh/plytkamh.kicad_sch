@@ -8525,7 +8525,7 @@
 			)
 		)
 	)
-	(global_label "PC4"
+	(global_label "PB0"
 		(shape input)
 		(at 247.65 248.92 180)
 		(fields_autoplaced yes)
@@ -8597,7 +8597,7 @@
 			)
 		)
 	)
-	(global_label "PA4"
+	(global_label "PA7"
 		(shape input)
 		(at 260.35 251.46 0)
 		(fields_autoplaced yes)
@@ -8645,7 +8645,7 @@
 			)
 		)
 	)
-	(global_label "PA1"
+	(global_label "PC4"
 		(shape input)
 		(at 247.65 251.46 180)
 		(fields_autoplaced yes)
@@ -8657,7 +8657,7 @@
 		)
 		(uuid "1e57d663-b164-4ee1-b644-de7b4e62e577")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.0967 251.46 0)
+			(at 240.9153 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,7 +8789,7 @@
 			)
 		)
 	)
-	(global_label "PA7"
+	(global_label "PC3"
 		(shape input)
 		(at 260.35 256.54 0)
 		(fields_autoplaced yes)
@@ -8801,7 +8801,7 @@
 		)
 		(uuid "31d52914-d5e2-4680-bcda-c710e03fff91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.9033 256.54 0)
+			(at 267.0847 256.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +9101,7 @@
 			)
 		)
 	)
-	(global_label "PC1"
+	(global_label "PA8"
 		(shape input)
 		(at 260.35 243.84 0)
 		(fields_autoplaced yes)
@@ -9113,7 +9113,7 @@
 		)
 		(uuid "55d1d4b8-3957-4752-8aa2-d580a722ca2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.0847 243.84 0)
+			(at 266.9033 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9245,7 +9245,7 @@
 			)
 		)
 	)
-	(global_label "PC3"
+	(global_label "PB1"
 		(shape input)
 		(at 260.35 246.38 0)
 		(fields_autoplaced yes)
@@ -9341,7 +9341,7 @@
 			)
 		)
 	)
-	(global_label "PA15"
+	(global_label "PC1"
 		(shape input)
 		(at 260.35 259.08 0)
 		(fields_autoplaced yes)
@@ -9353,7 +9353,7 @@
 		)
 		(uuid "6dd7d5d0-86f5-405f-93d4-8386c9cfb65e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.1128 259.08 0)
+			(at 267.0847 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9725,7 +9725,7 @@
 			)
 		)
 	)
-	(global_label "PB1"
+	(global_label "PA4"
 		(shape input)
 		(at 260.35 254 0)
 		(fields_autoplaced yes)
@@ -9737,7 +9737,7 @@
 		)
 		(uuid "884ca5d3-403f-49ae-a643-8c565417bf19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.0847 254 0)
+			(at 266.9033 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9845,7 +9845,7 @@
 			)
 		)
 	)
-	(global_label "PA8"
+	(global_label "PC2"
 		(shape input)
 		(at 247.65 259.08 180)
 		(fields_autoplaced yes)
@@ -9857,7 +9857,7 @@
 		)
 		(uuid "90c6eab2-5453-4704-8299-59e833110089")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.0967 259.08 0)
+			(at 240.9153 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10181,7 +10181,7 @@
 			)
 		)
 	)
-	(global_label "PA6"
+	(global_label "PA1"
 		(shape input)
 		(at 247.65 256.54 180)
 		(fields_autoplaced yes)
@@ -10325,7 +10325,7 @@
 			)
 		)
 	)
-	(global_label "PC9"
+	(global_label "PB7"
 		(shape input)
 		(at 247.65 264.16 180)
 		(fields_autoplaced yes)
@@ -10373,7 +10373,7 @@
 			)
 		)
 	)
-	(global_label "PC0"
+	(global_label "PA15"
 		(shape input)
 		(at 247.65 243.84 180)
 		(fields_autoplaced yes)
@@ -10385,7 +10385,7 @@
 		)
 		(uuid "ca73b6c1-cff7-4347-9e70-eede75135901")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.9153 243.84 0)
+			(at 239.8872 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10469,7 +10469,7 @@
 			)
 		)
 	)
-	(global_label "PB6"
+	(global_label "PC0"
 		(shape input)
 		(at 247.65 261.62 180)
 		(fields_autoplaced yes)
@@ -10493,7 +10493,7 @@
 			)
 		)
 	)
-	(global_label "PC2"
+	(global_label "PC9"
 		(shape input)
 		(at 247.65 246.38 180)
 		(fields_autoplaced yes)
@@ -10517,7 +10517,7 @@
 			)
 		)
 	)
-	(global_label "PB0"
+	(global_label "PA6"
 		(shape input)
 		(at 247.65 254 180)
 		(fields_autoplaced yes)
@@ -10529,7 +10529,7 @@
 		)
 		(uuid "e252e9a3-706a-4a8c-8e9d-9ab6aba144a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.9153 254 0)
+			(at 241.0967 254 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10637,7 +10637,7 @@
 			)
 		)
 	)
-	(global_label "PB7"
+	(global_label "PB6"
 		(shape input)
 		(at 260.35 261.62 0)
 		(fields_autoplaced yes)
