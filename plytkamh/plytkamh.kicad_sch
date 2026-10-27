@@ -8477,7 +8477,7 @@
 			)
 		)
 	)
-	(global_label "PB7"
+	(global_label "USART1_RX"
 		(shape input)
 		(at 369.57 207.01 0)
 		(fields_autoplaced yes)
@@ -8525,7 +8525,7 @@
 			)
 		)
 	)
-	(global_label "PB0"
+	(global_label "PB10"
 		(shape input)
 		(at 247.65 248.92 180)
 		(fields_autoplaced yes)
@@ -8549,7 +8549,7 @@
 			)
 		)
 	)
-	(global_label "USART1_TX"
+	(global_label "PA9"
 		(shape input)
 		(at 196.85 247.65 180)
 		(fields_autoplaced yes)
@@ -8573,7 +8573,7 @@
 			)
 		)
 	)
-	(global_label "USART2_RX"
+	(global_label "PA8"
 		(shape input)
 		(at 209.55 245.11 0)
 		(fields_autoplaced yes)
@@ -8597,7 +8597,7 @@
 			)
 		)
 	)
-	(global_label "PA7"
+	(global_label "PC5"
 		(shape input)
 		(at 260.35 251.46 0)
 		(fields_autoplaced yes)
@@ -8645,7 +8645,7 @@
 			)
 		)
 	)
-	(global_label "PC4"
+	(global_label "PB0"
 		(shape input)
 		(at 247.65 251.46 180)
 		(fields_autoplaced yes)
@@ -8693,7 +8693,7 @@
 			)
 		)
 	)
-	(global_label "I2C1_SCL"
+	(global_label "PA15"
 		(shape input)
 		(at 196.85 250.19 180)
 		(fields_autoplaced yes)
@@ -8741,7 +8741,7 @@
 			)
 		)
 	)
-	(global_label "I2C2_SDA"
+	(global_label "PC12"
 		(shape input)
 		(at 209.55 252.73 0)
 		(fields_autoplaced yes)
@@ -8789,7 +8789,7 @@
 			)
 		)
 	)
-	(global_label "PC3"
+	(global_label "PA4"
 		(shape input)
 		(at 260.35 256.54 0)
 		(fields_autoplaced yes)
@@ -8813,7 +8813,7 @@
 			)
 		)
 	)
-	(global_label "PC11"
+	(global_label "PC0"
 		(shape input)
 		(at 209.55 260.35 0)
 		(fields_autoplaced yes)
@@ -8837,7 +8837,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_MOSI"
+	(global_label "I2C1_SCL"
 		(shape input)
 		(at 209.55 257.81 0)
 		(fields_autoplaced yes)
@@ -8885,7 +8885,7 @@
 			)
 		)
 	)
-	(global_label "I2C2_SCL"
+	(global_label "PB10"
 		(shape input)
 		(at 369.57 214.63 0)
 		(fields_autoplaced yes)
@@ -9077,7 +9077,7 @@
 			)
 		)
 	)
-	(global_label "USART1_TX"
+	(global_label "PA9"
 		(shape input)
 		(at 369.57 168.91 0)
 		(fields_autoplaced yes)
@@ -9101,7 +9101,7 @@
 			)
 		)
 	)
-	(global_label "PA8"
+	(global_label "SPI2_MISO"
 		(shape input)
 		(at 260.35 243.84 0)
 		(fields_autoplaced yes)
@@ -9245,7 +9245,7 @@
 			)
 		)
 	)
-	(global_label "PB1"
+	(global_label "SPI2_NSS"
 		(shape input)
 		(at 260.35 246.38 0)
 		(fields_autoplaced yes)
@@ -9317,7 +9317,7 @@
 			)
 		)
 	)
-	(global_label "I2C2_SDA"
+	(global_label "PC12"
 		(shape input)
 		(at 328.93 199.39 180)
 		(fields_autoplaced yes)
@@ -9341,7 +9341,7 @@
 			)
 		)
 	)
-	(global_label "PC1"
+	(global_label "USART2_TX"
 		(shape input)
 		(at 260.35 259.08 0)
 		(fields_autoplaced yes)
@@ -9389,7 +9389,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_SCK"
+	(global_label "USART1_TX"
 		(shape input)
 		(at 209.55 255.27 0)
 		(fields_autoplaced yes)
@@ -9509,7 +9509,7 @@
 			)
 		)
 	)
-	(global_label "PB6"
+	(global_label "USART1_TX"
 		(shape input)
 		(at 369.57 204.47 0)
 		(fields_autoplaced yes)
@@ -9653,7 +9653,7 @@
 			)
 		)
 	)
-	(global_label "I2C2_SCL"
+	(global_label "PC11"
 		(shape input)
 		(at 196.85 252.73 180)
 		(fields_autoplaced yes)
@@ -9725,7 +9725,7 @@
 			)
 		)
 	)
-	(global_label "PA4"
+	(global_label "PA7"
 		(shape input)
 		(at 260.35 254 0)
 		(fields_autoplaced yes)
@@ -9845,7 +9845,7 @@
 			)
 		)
 	)
-	(global_label "PC2"
+	(global_label "USART2_RX"
 		(shape input)
 		(at 247.65 259.08 180)
 		(fields_autoplaced yes)
@@ -9869,7 +9869,7 @@
 			)
 		)
 	)
-	(global_label "USART1_RX"
+	(global_label "PA10"
 		(shape input)
 		(at 369.57 171.45 0)
 		(fields_autoplaced yes)
@@ -9893,7 +9893,7 @@
 			)
 		)
 	)
-	(global_label "PC10"
+	(global_label "I2C1_SDA"
 		(shape input)
 		(at 196.85 260.35 180)
 		(fields_autoplaced yes)
@@ -9917,7 +9917,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_NSS"
+	(global_label "PD2"
 		(shape input)
 		(at 196.85 255.27 180)
 		(fields_autoplaced yes)
@@ -10037,7 +10037,7 @@
 			)
 		)
 	)
-	(global_label "SPI2_MISO"
+	(global_label "USART1_RX"
 		(shape input)
 		(at 196.85 257.81 180)
 		(fields_autoplaced yes)
@@ -10085,7 +10085,7 @@
 			)
 		)
 	)
-	(global_label "PC5"
+	(global_label "PB1"
 		(shape input)
 		(at 260.35 248.92 0)
 		(fields_autoplaced yes)
@@ -10181,7 +10181,7 @@
 			)
 		)
 	)
-	(global_label "PA1"
+	(global_label "PA6"
 		(shape input)
 		(at 247.65 256.54 180)
 		(fields_autoplaced yes)
@@ -10229,7 +10229,7 @@
 			)
 		)
 	)
-	(global_label "USART1_RX"
+	(global_label "PA10"
 		(shape input)
 		(at 209.55 247.65 0)
 		(fields_autoplaced yes)
@@ -10325,7 +10325,7 @@
 			)
 		)
 	)
-	(global_label "PB7"
+	(global_label "PC2"
 		(shape input)
 		(at 247.65 264.16 180)
 		(fields_autoplaced yes)
@@ -10373,7 +10373,7 @@
 			)
 		)
 	)
-	(global_label "PA15"
+	(global_label "SPI2_MOSI"
 		(shape input)
 		(at 247.65 243.84 180)
 		(fields_autoplaced yes)
@@ -10469,7 +10469,7 @@
 			)
 		)
 	)
-	(global_label "PC0"
+	(global_label "PA1"
 		(shape input)
 		(at 247.65 261.62 180)
 		(fields_autoplaced yes)
@@ -10493,7 +10493,7 @@
 			)
 		)
 	)
-	(global_label "PC9"
+	(global_label "SPI2_SCK"
 		(shape input)
 		(at 247.65 246.38 180)
 		(fields_autoplaced yes)
@@ -10517,7 +10517,7 @@
 			)
 		)
 	)
-	(global_label "PA6"
+	(global_label "PC4"
 		(shape input)
 		(at 247.65 254 180)
 		(fields_autoplaced yes)
@@ -10565,7 +10565,7 @@
 			)
 		)
 	)
-	(global_label "PD2"
+	(global_label "PC1"
 		(shape input)
 		(at 196.85 262.89 180)
 		(fields_autoplaced yes)
@@ -10613,7 +10613,7 @@
 			)
 		)
 	)
-	(global_label "USART2_TX"
+	(global_label "PC9"
 		(shape input)
 		(at 196.85 245.11 180)
 		(fields_autoplaced yes)
@@ -10637,7 +10637,7 @@
 			)
 		)
 	)
-	(global_label "PB6"
+	(global_label "PC3"
 		(shape input)
 		(at 260.35 261.62 0)
 		(fields_autoplaced yes)
@@ -10661,7 +10661,7 @@
 			)
 		)
 	)
-	(global_label "I2C1_SDA"
+	(global_label "PC10"
 		(shape input)
 		(at 209.55 250.19 0)
 		(fields_autoplaced yes)
