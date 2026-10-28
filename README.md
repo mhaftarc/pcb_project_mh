@@ -16,6 +16,8 @@ Bottom layer:
 
 ![Bottom layer](docs/img/pcb_bottom.png)
 
+Schematic: [plytkamh.pdf](docs/plytkamh.pdf)
+
 ## What's on the board
 
 - STM32F446RET6 (LQFP64) with a 12 MHz crystal
